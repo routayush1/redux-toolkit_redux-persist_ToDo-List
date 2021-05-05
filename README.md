@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Todo List App Using Redux Toolkit ,Redux Persist and React
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+> Before you continue, try the demo:  <br />
 
-### `npm test`
+> Add a few items to the list.
+Check-off your todos and navigate the footer to filter for Active/Completed.
+Try and "break" it! Refresh the page and notice how your todo items
+are "still there" (_they were saved to `localStorage`!_).
+Once you have had a "play" with the demo, come back and _build_ it!!
+<hr />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What?
 
-### `npm run build`
+Build a fully functional "Todo List" Application! <br />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
++ [x] Building an App using React!
++ [x] UI build using Styled Components!
++ [x] State Management with Redux Toolkit!
++ [x] Local Storage for Offline Support with the help of Redux persist!
++ [x] Animations made using Famer Motion Api!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Todo List?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you are _unfamiliar_ with Todo lists, simply put:
+they are a way of keeping a list of the tasks that need to be done. <br />
+see: https://en.wikipedia.org/wiki/Time_management#Setting_priorities_and_goals
 
-### `npm run eject`
+Todo Lists or "Checklists" are the _best_ way of tracking tasks. <br />
+Atul Gawande wrote a _superb_ book on this subject: <br />
+https://www.amazon.com/Checklist-Manifesto-How-Things-Right/dp/0312430000 <br />
+Or if you don't have time to read,
+watch: https://www.youtube.com/results?search_query=checklist+manifesto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## _Who?_
+This repo is for anyone/everyone who wants
+to see how Redux Toolkit and Redux Persist works
+while viewing a "real world" Todo List Application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Prerequisites
+Most beginners with basic  and HTML knowledge
+should be able to follow this example without any prior experience.
+The code is commented and the most "complex" function is an event listener.
+With that said, if you feel "stuck" at any point,
+please consult the recommend reading (_and Google_)
+and if you cannot find an answer,
+please open an issue!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## _How?_
+Start by cloning this repository to your `localhost`
+so that you can follow the example/tutorial offline:
+```sh
+git clone https://github.com/routayush1/redux-toolkit_redux-persist_ToDo-List.git
+```
+Install the `devDependencies` so you can run the tests:
+```sh
+ npm install
+```
+Now you have _everything_ you need to start this Todo List !
+```sh
+ npm start
+```
