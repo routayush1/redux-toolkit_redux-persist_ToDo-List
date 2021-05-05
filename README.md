@@ -1,4 +1,4 @@
-<div align="center">
+<div>
 
 # Todo List App Using Redux Toolkit ,Redux Persist and React
 
