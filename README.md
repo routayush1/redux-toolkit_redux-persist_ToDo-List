@@ -1,12 +1,16 @@
-<div align="center">
+<div>
 
 # Todo List App Using Redux Toolkit ,Redux Persist and React
 
 
+<a href="https://redux-to-do.vercel.app/"
+ alt="Try the Demo on Vercel!">
+  <img src="https://github.com/routayush1/redux-toolkit_redux-persist_ToDo-List/blob/master/screenshot-rocks.png"
+  alt="ToDo!">
+</a>
 
 
-
-> Before you continue, try the demo:  <br />
+> Before you continue, try the demo: https://redux-to-do.vercel.app/ <br />
 
 > Add a few items to the list.
 Check-off your todos and navigate the footer to filter for Active/Completed.
