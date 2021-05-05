@@ -10,7 +10,7 @@
 </a>
 
 
-> Before you continue, try the demo:  <br />
+> Before you continue, try the demo: https://redux-to-do.vercel.app/ <br />
 
 > Add a few items to the list.
 Check-off your todos and navigate the footer to filter for Active/Completed.
